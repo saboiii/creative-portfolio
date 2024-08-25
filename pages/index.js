@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { LuGithub, LuLinkedin, LuInstagram } from "react-icons/lu";
 import Head from "next/head";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -31,17 +32,26 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-1 gap-4 px-10 lg:px-56 xl:px-72 w-full h-[70vh] overflow-hidden">
-          <div className="flex justify-center animate-fade">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-10 lg:px-56 xl:px-72 w-full h-[70vh] overflow-hidden">
+          <Link href='/projectone' className="flex justify-center animate-fade">
             <Image
               src='/poster-1.png'
               height={100}
               width={350}
               className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
             />
-          </div>
+          </Link>
+          <Link href='/projecttwo' className="flex justify-center animate-fade">
+            <Image
+              src='/poster-2.png'
+              height={100}
+              width={350}
+              className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
+            />
+          </Link>
         </div>
       </div>
+      <About/>
     </Layout>
   );
 }
