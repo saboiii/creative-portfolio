@@ -7,7 +7,7 @@ export default function About() {
                 <div className="flex flex-col md:flex-row items-center justify-center h-[75vh] w-screen">
                     <div className="flex flex-col md:flex-row items-center animate-fadeslow">
                         <div className="hidden md:flex w-[1px] h-56 mr-8 bg-white" />
-                        <div className="flex flex-col w-[450px] pr-0 md:pr-24">
+                        <div className="flex flex-col w-[450px] px-16 md:pr-24">
                             <p className="text-[7px] uppercase mt-4 tracking-widest text-center md:text-left leading-tight">
                                 Hello! My name is Saba.
                             </p>
