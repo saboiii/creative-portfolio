@@ -50,7 +50,7 @@ export default function ProjectOne() {
                             05 &nbsp; Development
                         </div>
                         <p className="text-[9px] tracking-widest uppercase mb-4 w-full">
-                            I introduced custom animations (button glow, fade-in, etc) to make the user's interactions feel more natural and engaging.
+                            I introduced custom animations (button glow, fade-in, etc) to make the user&apos;s interactions feel more natural and engaging.
                         </p>
                     </div>
                     <div className="flex-col flex bg-gradient-to-br from-[#0e0e0e] to-black w-full h-full md:row-span-2 rounded-2xl p-8 overflow-hidden items-center justify-center">
