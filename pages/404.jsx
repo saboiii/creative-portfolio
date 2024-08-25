@@ -9,7 +9,7 @@ const NotFound = () => {
             <div className="flex bg-banner bg-cover w-full h-6 bg-top" />
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <h1 className='uppercase animate-fadeslow'>WHoops, Page Not Found</h1>
-                <p className='uppercase tracking-widest text-[9px] animate-fadeslow'>I'm probably not done with this project. Come back later :)</p>
+                <p className='uppercase tracking-widest text-[9px] animate-fadeslow'>I'm probably not done with this project. Come back later!</p>
             </div>
         </div>
     );

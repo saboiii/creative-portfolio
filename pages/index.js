@@ -18,6 +18,7 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <Image
               src='/title.png'
+              alt="Title image."
               height={250}
               width={250}
               className="flex h-10 animate-fadeslow"
@@ -36,6 +37,7 @@ export default function Home() {
           <Link href='/projectone' className="flex justify-center animate-fade">
             <Image
               src='/poster-1.png'
+              alt="Poster with a pink and orange spider on it."
               height={100}
               width={350}
               className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
@@ -44,6 +46,7 @@ export default function Home() {
           <Link href='/projecttwo' className="flex justify-center animate-fade">
             <Image
               src='/poster-2.png'
+              alt="Poster with a purple and orange wasp on it."
               height={100}
               width={350}
               className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"

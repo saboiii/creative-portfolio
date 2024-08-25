@@ -24,6 +24,7 @@ export default function ProjectOne() {
                         </div>
                         <Image
                             src='/planning.png'
+                            alt="Planning and sketching."
                             width={300}
                             height={300}
                             className="object-cover flex"
@@ -38,6 +39,7 @@ export default function ProjectOne() {
                         </p>
                         <Image
                             src='/figma.png'
+                            alt="Figma screenshot of prototyping."
                             width={400}
                             height={400}
                             className="object-cover flex"
@@ -60,6 +62,7 @@ export default function ProjectOne() {
                         </p>
                         <Image
                             src='/painting.png'
+                            alt="Illustrating with Photoshop."
                             width={200}
                             height={200}
                             className="object-cover flex"
@@ -71,6 +74,7 @@ export default function ProjectOne() {
                         </div>
                         <Image
                             src='/swatches.png'
+                            alt="Swatches and typography."
                             width={200}
                             height={200}
                             className="object-cover flex"

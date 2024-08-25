@@ -29,6 +29,7 @@ export default function About() {
                     </div>
                     <Image
                         src='/polaroid.png'
+                        alt='A picture of Saba Azad'
                         height={200}
                         width={200}
                         className="flex md:w-[230px] rotate-6 object-contain opacity-90 mt-12 md:mt-0"
