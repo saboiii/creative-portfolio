@@ -38,18 +38,18 @@ export default function Home() {
             <Image
               src='/poster-1.png'
               alt="Poster with a pink and orange spider on it."
-              height={100}
+              height={250}
               width={250}
-              className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
+              className="object-contain md:w-[350px] flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
             />
           </Link>
           <Link href='/projecttwo' className="flex justify-center animate-fade">
             <Image
               src='/poster-2.png'
               alt="Poster with a purple and orange wasp on it."
-              height={100}
+              height={250}
               width={250}
-              className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
+              className="object-contain md:w-[350px] flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
             />
           </Link>
         </div>
