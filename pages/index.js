@@ -39,7 +39,7 @@ export default function Home() {
               src='/poster-1.png'
               alt="Poster with a pink and orange spider on it."
               height={100}
-              width={350}
+              width={250}
               className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
             />
           </Link>
@@ -48,7 +48,7 @@ export default function Home() {
               src='/poster-2.png'
               alt="Poster with a purple and orange wasp on it."
               height={100}
-              width={350}
+              width={250}
               className="object-contain flex md:grayscale-[30%] hover:grayscale-0 md:hover:translate-y-[-4px] transition duration-400 ease-in-out"
             />
           </Link>

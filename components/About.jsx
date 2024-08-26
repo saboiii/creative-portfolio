@@ -10,16 +10,16 @@ export default function About() {
     const { scrollYProgress } = useScroll();
     const tag = "flex m-1 bg-[#eeeeee]/5 tracking-widest text-center text-[9px] uppercase font-righteous rounded-full px-3 py-1 bg-[linear-gradient(45deg,transparent_25%,rgba(255,105,145,0.2)_50%,transparent_75%,transparent_100%)] overflow-hidden bg-[length:250%_250%,100%_100%] bg-[position:-100%_0,0_0]  shadow-2xl transition-[background-position_0s_ease] hover:bg-[position:200%_0,0_0] hover:duration-[2000ms]";
     return (
-        <div className="flex flex-col w-screen h-screen bg-[#111111] items-center justify-center">
+        <div className="flex flex-col w-screen h-screen bg-[#111111] items-center justify-center my-12 lg:my-0">
             <ScrollBar />
             <div className="flex flex-col lg:flex-row items-center justify-center w-screen my-12 md:my-20">
                 <div className="flex flex-col md:flex-row items-center animate-fadeslow">
-                    <div className="flex flex-col w-[450px] px-20 lg:px-0 lg:w-[25vw]">
+                    <div className="flex flex-col w-[350px] md:w-[450px] px-20 lg:px-0 lg:w-[25vw]">
                         <p className="text-[7px] uppercase mt-4 tracking-widest text-center lg:text-left leading-tight">
                             Hello! My name is Saba.
                         </p>
                         <h1 className="text-center lg:text-left">ABOUT ME</h1>
-                        <p className="text-xs mt-6 tracking-tight text-center lg:text-left">
+                        <p className="text-[10px] md:text-xs mt-6 tracking-tight text-center lg:text-left">
                             I am a creative developer and designer who works with
                             Adobe tools and various other web technologies to create meaningful user
                             experiences and innovative products. With years of experience
