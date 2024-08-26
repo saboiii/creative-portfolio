@@ -12,7 +12,7 @@ export default function Home() {
         <title>Saba Azad | Creative Portfolio</title>
         <meta name="description" content="Creative developer." />
       </Head>
-      <div className="flex flex-col w-screen h-screen">
+      <div className="flex flex-col w-screen">
         <div className="flex flex-col justify-between items-center h-[30vh] w-full mb-10 lg:mb-0">
           <div className="flex bg-banner bg-cover w-full h-6 bg-top" />
           <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-10 lg:px-56 xl:px-72 w-full h-[70vh] overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-10 lg:px-56 xl:px-72 w-full mb-8 lg:mb-0 lg:h-[70vh] overflow-hidden">
           <Link href='/projectone' className="flex justify-center animate-fade">
             <Image
               src='/poster-1.png'

@@ -95,7 +95,7 @@ export default function ProjectOne() {
                         <div className="font-righteous mb-2">
                             07 &nbsp; Link to Project
                         </div>
-                        <Link href='https://hackclubstudy.netlify.app/' className="tracking-widest uppercase w-full text-[#fc669b] hover:text-white ease-in-out duration-300 font-normal text-xs">
+                        <Link href='https://hackclubstudy.netlify.app/' to="route" target="_blank" rel="noopener noreferrer" className="tracking-widest uppercase w-full text-[#fc669b] hover:text-white ease-in-out duration-300 font-normal text-xs">
                             HackClub Study
                             <RiLinkM className="inline ml-1 translate-y-[-1px]" size={14}/>
                         </Link>

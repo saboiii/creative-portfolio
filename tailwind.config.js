@@ -19,8 +19,24 @@ module.exports = {
         entre: "entre 2s ease-out forwards",
         fade: "fade-in 4s ease-in-out forwards",
         fadeslow: "fade-in-slow 2s ease-in-out forwards",
+        "loop-scroll": "loop-scroll 50s linear infinite",
+        slam: "slam 1s ease-in",
       },
       keyframes: {
+        slam: {
+          "0%": {
+            opacity: "0",
+            transform: "rotate(0deg) scale(1.5)",
+          },
+          "50%": {
+            opacity: "0",
+            transform: "rotate(5deg) scale(1.2)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "rotate(10deg) scale(1)",
+          },
+        },
         entre: {
           "0%": {
             opacity: "0%",
@@ -53,6 +69,10 @@ module.exports = {
           "100%": {
             opacity: "100%",
           },
+        },
+        "loop-scroll": {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
     },
