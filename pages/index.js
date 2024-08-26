@@ -27,9 +27,9 @@ export default function Home() {
               Welcome to my creative portfolio &nbsp;|&nbsp; All rights reserved &nbsp;|&nbsp; Inspired by Jastroproject
             </p>
             <div className="flex animate-entre flex-row gap-4 items-center mt-4">
-              <Link href='https://github.com/saboiii' className="hover:text-[#fc669b] ease-in-out duration-300"><LuGithub size={18} /></Link>
-              <Link href='https://www.linkedin.com/in/sabaxazad/' className="hover:text-[#fc669b] ease-in-out duration-300"><LuLinkedin size={18} /></Link>
-              <Link href='https://www.instagram.com/saboiiiii/' className="hover:text-[#fc669b] ease-in-out duration-300"><LuInstagram size={18} /></Link>
+              <Link href='https://github.com/saboiii' to="route" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc669b] ease-in-out duration-300"><LuGithub size={18} /></Link>
+              <Link href='https://www.linkedin.com/in/sabaxazad/' to="route" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc669b] ease-in-out duration-300"><LuLinkedin size={18} /></Link>
+              <Link href='https://www.instagram.com/saboiiiii/' to="route" target="_blank" rel="noopener noreferrer" className="hover:text-[#fc669b] ease-in-out duration-300"><LuInstagram size={18} /></Link>
             </div>
           </div>
         </div>

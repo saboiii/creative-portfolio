@@ -12,7 +12,7 @@ export default function About() {
     return (
         <div className="flex flex-col w-screen h-screen bg-[#111111] items-center justify-center">
             <ScrollBar />
-            <div className="flex flex-col lg:flex-row items-center justify-center w-screen my-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center w-screen my-12 md:my-20">
                 <div className="flex flex-col md:flex-row items-center animate-fadeslow">
                     <div className="flex flex-col w-[450px] px-20 lg:px-0 lg:w-[25vw]">
                         <p className="text-[7px] uppercase mt-4 tracking-widest text-center lg:text-left leading-tight">
@@ -30,14 +30,14 @@ export default function About() {
                         </p>
                         <p className="text-xs mt-6 tracking-tight text-center lg:text-left">
                             I am currently honing my skills in the field of AI and machine learning by working
-                            on deep learning frameworks using biological data.
+                            on designing my own deep learning frameworks using biological data.
                         </p>
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row lg:flex-col items-center md:items-start h-full mt-6 lg:mt-0">
-                    <div className="flex flex-col">
-                        <div className="flex flex-row justify-center lg:justify-start uppercase font-righteous text-[14px] lg:ml-20 mt-6 w-64"><AiFillCode size={20} className="inline mr-2" /> use regularly</div>
-                        <div className="flex flex-wrap lg:justify-start justify-center items-start lg:ml-20 mt-4 w-[400px]">
+                    <div className="flex flex-col mr-0 md:mr-4 lg:mr-0">
+                        <div className="flex flex-row justify-center lg:justify-start uppercase font-righteous text-[14px] w-full lg:ml-20 mt-6 lg:w-64"><AiFillCode size={20} className="inline mr-2" /> use regularly</div>
+                        <div className="flex flex-wrap lg:justify-start justify-center items-start lg:ml-20 mt-4 w-[300px] lg:w-[400px]">
                             <div className={tag}>
                                 React Native
                             </div>
@@ -82,9 +82,9 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col">
-                        <div className="flex flex-row justify-center lg:justify-start uppercase font-righteous text-[14px] lg:ml-20 mt-6 w-64"><PiSmileyFill size={20} className="inline mr-2 " /> currently learning</div>
-                        <div className="flex flex-wrap lg:justify-start justify-center items-start lg:ml-20 mt-4 w-[400px]">
+                    <div className="flex flex-col mt-6 md:mt-0 ml-0 md:ml-4 lg:ml-0">
+                        <div className="flex flex-row justify-center lg:justify-start uppercase font-righteous text-[14px] w-full lg:ml-20 mt-6 lg:w-64"><PiSmileyFill size={20} className="inline mr-2 " /> currently learning</div>
+                        <div className="flex flex-wrap lg:justify-start justify-center items-start lg:ml-20 mt-4 w-[300px] lg:w-[400px]">
                             <div className={tag}>
                                 C++/C
                             </div>
